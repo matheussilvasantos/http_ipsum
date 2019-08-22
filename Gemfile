@@ -8,6 +8,7 @@ gem "sinatra"
 gem "rack"
 gem "rack-contrib"
 gem "rake"
+gem "puma"
 
 group :development do
   gem "byebug"
