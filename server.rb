@@ -52,6 +52,8 @@ get "/" do
 end
 
 get "/:status" do
-  status params["status"]
+  @status_code = params["status"].to_i
+  @status_description = statuses[@status_code]
+  status @status_code
   erb :show
 end
