@@ -1,8 +1,10 @@
-<h1>HTTP Ipsum</h1>
-<p>HTTP Ipsum is an easy way to test your application when a website returns a specific
-HTTP status code</p>
-<ul>
-  <% @statuses.each do |status, description| %>
-    <li><a href="/<%= status %>"><%= "#{status} #{description}" %></li>
-  <% end %>
-</ul>
+<article>
+  <h1>HTTP Ipsum</h1>
+  <p>HTTP Ipsum is an easy way to test your application when a website returns a specific
+  HTTP status code</p>
+  <ul>
+    <% @statuses.each do |status, description| %>
+      <li><a href="/<%= status %>"><%= "#{status} #{description}" %></li>
+    <% end %>
+  </ul>
+</article>
