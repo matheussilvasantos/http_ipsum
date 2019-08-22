@@ -2,10 +2,12 @@
 
 source "https://rubygems.org"
 
-gem 'sinatra'
-gem 'rack'
-gem 'rack-contrib'
-gem 'rake'
+ruby "2.6.3"
+
+gem "sinatra"
+gem "rack"
+gem "rack-contrib"
+gem "rake"
 
 group :development do
   gem "byebug"
